@@ -22,7 +22,7 @@ export default function Hero({ data }) {
             )}
 
             {/* Name */}
-            <h1 className="font-display font-extrabold text-4xl md:text-7xl text-paper leading-[0.95] mb-2 animate-fade-up animate-delay-100">
+            <h1 className="font-display font-extrabold text-3xl md:text-7xl text-paper leading-[0.95] mb-2 animate-fade-up animate-delay-100">
               {personal.name.split(' ').map((word, i) => (
                 <span key={i} className={i === 2 ? 'text-accent' : ''}>
                   {word}{' '}
