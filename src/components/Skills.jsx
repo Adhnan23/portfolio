@@ -1,7 +1,7 @@
-import { Code2, Monitor, Server, Database, Container, Wrench } from 'lucide-react'
+import { Code2, Monitor, Server, Database, Container, Wrench, Layers, Sparkles, Cpu } from 'lucide-react'
 
 const ICON_MAP = {
-  Code2, Monitor, Server, Database, Container, Wrench
+  Code2, Monitor, Server, Database, Container, Wrench, Layers, Sparkles, Cpu
 }
 
 const CATEGORY_COLORS = {
@@ -9,8 +9,11 @@ const CATEGORY_COLORS = {
   Frontend: 'from-blue-500/20 to-transparent border-blue-500/20',
   Backend: 'from-green-500/20 to-transparent border-green-500/20',
   Database: 'from-purple-500/20 to-transparent border-purple-500/20',
-  DevOps: 'from-orange-500/20 to-transparent border-orange-500/20',
+  'ORM & Data Layer': 'from-teal-500/20 to-transparent border-teal-500/20',
+  'DevOps & Infrastructure': 'from-orange-500/20 to-transparent border-orange-500/20',
   Tools: 'from-pink-500/20 to-transparent border-pink-500/20',
+  'AI & Emerging Tech': 'from-indigo-500/20 to-transparent border-indigo-500/20',
+  'Other / Misc': 'from-gray-500/20 to-transparent border-gray-500/20'
 }
 
 const ICON_COLORS = {
@@ -18,8 +21,11 @@ const ICON_COLORS = {
   Frontend: 'text-blue-400',
   Backend: 'text-green-400',
   Database: 'text-purple-400',
-  DevOps: 'text-orange-400',
+  'ORM & Data Layer': 'text-teal-400',
+  'DevOps & Infrastructure': 'text-orange-400',
   Tools: 'text-pink-400',
+  'AI & Emerging Tech': 'text-indigo-400',
+  'Other / Misc': 'text-gray-400'
 }
 
 export default function Skills({ skills }) {
