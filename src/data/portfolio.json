@@ -1,0 +1,416 @@
+{
+  "personal": {
+    "name": "Mohammed Sheik Adhnan",
+    "title": "Full-Stack Developer",
+    "subtitle": "Backend & DevOps Focused",
+    "location": "Puttalam, Sri Lanka",
+    "email": "adhnanmsa@gmail.com",
+    "phone": "+94 76 962 6396",
+    "github": "https://github.com/Adhnan23",
+    "linkedin": "https://www.linkedin.com/in/sheik-adhnan-820a5a21a",
+    "bio": "Detail-oriented Full-Stack Developer with a strong focus on backend engineering and DevOps. Experienced in designing scalable backend systems, containerized deployments, and secure infrastructure with Docker and NGINX. Known for fast learning, adaptability, and building projects that improve operational efficiency and reduce manual workload.",
+    "available": true
+  },
+
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "Code2",
+      "items": [
+        "Java",
+        "C",
+        "GO",
+        "Kotlin",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "icon": "Monitor",
+      "items": [
+        "React.js",
+        "Vite",
+        "Tailwind CSS",
+        "ShadCN UI",
+        "Material UI",
+        "React Router",
+        "Apollo Client",
+        "Responsive Design",
+        "TanStack (React Query, Router, Table)",
+        "Astro.js",
+        "htmx",
+        "Alpine.js",
+        "Start"
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "Server",
+      "items": [
+        "Node.js",
+        "Bun",
+        "Express.js",
+        "ElysiaJS",
+        "Hono",
+        "oRPC",
+        "REST APIs",
+        "GraphQL",
+        "Apollo Server",
+        "Zod Validation"
+      ]
+    },
+    {
+      "category": "Database",
+      "icon": "Database",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "SQLite",
+        "MSSQL",
+        "MariaDB",
+        "Redis",
+        "Valkey",
+        "PocketBase"
+      ]
+    },
+    {
+      "category": "ORM & Data Layer",
+      "icon": "Layers",
+      "items": ["Prisma", "Drizzle ORM", "Schema Design", "Data Modeling"]
+    },
+    {
+      "category": "DevOps & Infrastructure",
+      "icon": "Container",
+      "items": [
+        "Docker",
+        "Podman",
+        "NGINX",
+        "Traefik",
+        "Cloudflare",
+        "Proxmox",
+        "SSL/TLS",
+        "Reverse Proxy",
+        "Linux CLI",
+        "Cron Jobs",
+        "Automated Backups"
+      ]
+    },
+    {
+      "category": "Tools",
+      "icon": "Wrench",
+      "items": [
+        "Git/GitHub",
+        "Postman",
+        "JWT Authentication",
+        "RBAC",
+        "PWA",
+        "WordPress",
+        "API Design",
+        "System Design"
+      ]
+    },
+    {
+      "category": "AI & Emerging Tech",
+      "icon": "Sparkles",
+      "items": [
+        "OpenAI API",
+        "AI Chatbot Development",
+        "Prompt Engineering",
+        "NLP Basics"
+      ]
+    },
+    {
+      "category": "Other / Misc",
+      "icon": "Cpu",
+      "items": [
+        "React Native (Expo)",
+        "Batch Scripting",
+        "Custom Data Formats (T.O.D.E)"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Due Tracker App",
+      "subtitle": "Brilliant Spares",
+      "description": "Automated bill tracking system with image capture, auto-applied dates, and one-tap transaction management. Reduced manual data entry by ~70% for a local auto parts business.",
+      "tags": ["React", "Node.js", "MongoDB", "Docker"],
+      "highlights": [
+        "70% reduction in manual data entry",
+        "Automated bill creation via image capture",
+        "One-tap Paid/Edit/Remove workflow"
+      ],
+      "github": "",
+      "live": "https://due.karotserver.duckdns.org/",
+      "featured": true,
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "title": "eCommerce Platform",
+      "subtitle": "Full-Stack",
+      "description": "Complete eCommerce solution with mobile-responsive admin panel for inventory management. Deployed on Docker with 100% uptime over 6+ months and automated daily backups.",
+      "tags": ["React", "Express.js", "MySQL", "Docker", "NGINX"],
+      "highlights": [
+        "100% uptime over 6+ months",
+        "Automated daily backups",
+        "Mobile-responsive admin panel"
+      ],
+      "github": "",
+      "live": "",
+      "featured": true,
+      "year": "2024"
+    },
+    {
+      "id": 3,
+      "title": "Dockerized Server Deployments",
+      "subtitle": "DevOps",
+      "description": "Multi-container applications with SSL, NGINX reverse proxy, and scheduled backups (3x/day). Maintained stable, secure environments with zero downtime.",
+      "tags": ["Docker", "NGINX", "SSL", "DuckDNS", "Let's Encrypt"],
+      "highlights": [
+        "Zero downtime production deployments",
+        "3x/day automated backups",
+        "Full SSL/TLS with reverse proxy"
+      ],
+      "github": "",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 4,
+      "title": "Transport Service Website",
+      "subtitle": "M.U.M Kalpitiya",
+      "description": "WordPress website for a local transport service, improving online visibility, client engagement, and establishing a professional digital presence.",
+      "tags": ["WordPress", "PHP", "CSS"],
+      "highlights": [
+        "Improved online visibility",
+        "Client engagement boost",
+        "Professional digital presence"
+      ],
+      "github": "",
+      "live": "https://www.kalpitiyatransport.com/",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 5,
+      "title": "Tenzies Game",
+      "subtitle": "React Mini Project",
+      "description": "Interactive React-based browser game demonstrating frontend skills, state management, and game logic implementation with clean UI.",
+      "tags": ["React", "JavaScript", "CSS"],
+      "highlights": [
+        "Interactive game logic",
+        "Clean React state management",
+        "Responsive UI"
+      ],
+      "github": "https://github.com/Adhnan23/game-tenzies",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 6,
+      "title": "Employee Management System",
+      "subtitle": "Techwox Solutions (Internal)",
+      "description": "Internal employee management system built during internship at Techwox Solutions. Led backend development, improving team workflow efficiency with JWT auth and RBAC.",
+      "tags": ["Node.js", "MongoDB", "Express.js", "JWT", "RBAC", "Docker"],
+      "highlights": [
+        "Led backend development",
+        "JWT authentication",
+        "Role-based access control"
+      ],
+      "github": "",
+      "live": "",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "id": 7,
+      "title": "Chef-Mixtral AI Chatbot",
+      "subtitle": "AI Application",
+      "description": "AI-powered chatbot that provides recipe suggestions and cooking guidance using natural language processing.",
+      "tags": ["React", "Node.js", "OpenAI API", "TypeScript"],
+      "highlights": [
+        "AI-powered responses",
+        "NLP interaction",
+        "Dynamic recipes"
+      ],
+      "github": "https://github.com/Adhnan23/Chef-Mixtral-Project",
+      "live": "",
+      "featured": true,
+      "year": "2025"
+    },
+    {
+      "id": 8,
+      "title": "Mosque Prayer App",
+      "subtitle": "Full-Stack",
+      "description": "Full-stack mosque prayer time application with backend API and frontend UI for displaying daily prayer schedules.",
+      "tags": ["Node.js", "Express.js", "MongoDB", "React", "Vite"],
+      "highlights": [
+        "Full-stack architecture",
+        "API + frontend integration",
+        "Prayer time display"
+      ],
+      "github": "https://github.com/Adhnan23/mosque-prayer-server",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 9,
+      "title": "DIY-DRM",
+      "subtitle": "Security Concept",
+      "description": "Lightweight DRM system built with Windows batch scripting that restricts software access based on machine hostname.",
+      "tags": ["Batch Script", "Windows", "Security"],
+      "highlights": [
+        "Hostname-based protection",
+        "Executable masking",
+        "Educational DRM concept"
+      ],
+      "github": "https://github.com/Adhnan23/DIY-DRM",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 10,
+      "title": "HVZD Stack Starter",
+      "subtitle": "Full-Stack Boilerplate",
+      "description": "Modern full-stack monorepo using Hono, Vite, Zod, and Drizzle with end-to-end type safety.",
+      "tags": ["Hono", "Vite", "Zod", "Drizzle", "TypeScript"],
+      "highlights": ["End-to-end typing", "Monorepo setup", "Modern stack"],
+      "github": "https://github.com/Adhnan23/hvzd-stack-starter",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 11,
+      "title": "Elysia Drizzle Starter",
+      "subtitle": "Backend Boilerplate",
+      "description": "Type-safe backend starter using ElysiaJS, Drizzle ORM, Zod, and Bun runtime.",
+      "tags": ["ElysiaJS", "Drizzle", "Zod", "Bun", "TypeScript"],
+      "highlights": ["Fast backend", "Schema validation", "ORM integration"],
+      "github": "https://github.com/Adhnan23/elysia-drizzle-starter",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 12,
+      "title": "MERN App Template",
+      "subtitle": "Starter Kit",
+      "description": "Reusable MERN stack template with pre-configured frontend and backend structure.",
+      "tags": ["React", "Node.js", "Express", "MongoDB"],
+      "highlights": ["Quick project setup", "Full-stack template"],
+      "github": "https://github.com/Adhnan23/mern-app-template",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 13,
+      "title": "Loan Ledger App",
+      "subtitle": "Mobile App",
+      "description": "React Native (Expo) mobile app scaffold for tracking loans, payments, and balances.",
+      "tags": ["React Native", "Expo", "TypeScript"],
+      "highlights": ["Mobile-first", "Cross-platform"],
+      "github": "https://github.com/Adhnan23/loan-ledger",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 14,
+      "title": "Virtuality Web",
+      "subtitle": "Frontend UI",
+      "description": "Modern React + Tailwind web UI for showcasing virtual/immersive experiences.",
+      "tags": ["React", "Vite", "Tailwind CSS"],
+      "highlights": ["Responsive UI", "Modern frontend"],
+      "github": "https://github.com/Adhnan23/Virtuality-Web",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    },
+    {
+      "id": 15,
+      "title": "Typed Object Described Encapsulation",
+      "subtitle": "Custom Data Format",
+      "description": "Experimental typed data format (.tode) combining schema and data into a single human-readable structure.",
+      "tags": ["TypeScript", "Data Design"],
+      "highlights": ["Schema + data unified", "JSON alternative"],
+      "github": "https://github.com/Adhnan23/Typed-Object-Described-Encapsulation",
+      "live": "",
+      "featured": false,
+      "year": "2023"
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Full-Stack Developer (Intern)",
+      "company": "Techwox Solutions",
+      "location": "Negombo, Sri Lanka",
+      "period": "Feb 2025 – July 2025",
+      "current": true,
+      "points": [
+        "Developed backend for a tourism platform using Node.js and MongoDB",
+        "Led backend development of an internal employee management system",
+        "Built a React frontend for a VR product showcase with responsive UI",
+        "Implemented JWT authentication, RBAC, Docker, and NGINX"
+      ]
+    },
+    {
+      "role": "ICT Technician",
+      "company": "P/Kal/Kandalkuliya M.M.V",
+      "location": "Puttalam, Sri Lanka",
+      "period": "2022 – 2024",
+      "current": false,
+      "points": [
+        "Maintained school IT infrastructure",
+        "Resolved 95%+ of hardware and software issues, minimizing downtime"
+      ]
+    },
+    {
+      "role": "Freelance IT Support",
+      "company": "Self-Employed",
+      "location": "Puttalam, Sri Lanka",
+      "period": "2018 – Present",
+      "current": true,
+      "points": [
+        "PC builds, software installation, network setup",
+        "Hardware troubleshooting for local clients"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Higher National Diploma (HND) in Software Engineering",
+      "institution": "Wayamba University of Sri Lanka",
+      "year": "2023",
+      "result": "Distinction – Rank 1"
+    },
+    {
+      "degree": "Diploma in Software Engineering",
+      "institution": "Wayamba University of Sri Lanka",
+      "year": "2022",
+      "result": "Distinction – Rank 2"
+    },
+    {
+      "degree": "NVQ Level 4 – ICT Technician",
+      "institution": "Vocational Training Centre (VTC), Puttalam",
+      "year": "2023",
+      "result": "Certified"
+    }
+  ]
+}
