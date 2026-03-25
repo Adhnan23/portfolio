@@ -1,14 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-
-let cloudflarePlugin;
-try {
-  cloudflarePlugin = (await import("@cloudflare/vite-plugin")).default;
-} catch (e) {
-  cloudflarePlugin = null;
-}
+import { cloudflare } from "@cloudflare/vite-plugin";
 
 export default defineConfig({
-  plugins: [react(), ...(cloudflarePlugin ? [cloudflarePlugin()] : [])],
-  base: "/",
+  plugins: [react(), cloudflare()],
 });
